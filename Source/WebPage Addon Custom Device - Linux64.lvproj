@@ -19,9 +19,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Utility" Type="Folder">
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
+		<Item Name="Custom Device WebPage Addon.xml" Type="Document" URL="../Addon/Custom Device WebPage Addon.xml"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -114,8 +115,8 @@
 			<Item Name="Get File Extension.vi" Type="VI" URL="../gRPCWebPageInterface.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
 			<Item Name="1D String Array to Delimited String (string).vi" Type="VI" URL="../gRPCWebPageInterface.lvlibp/1abvi3w/vi.lib/AdvancedString/1D String Array to Delimited String (string).vi"/>
 		</Item>
-		<Item Name="WebPage Addon Engine.lvlib" Type="Library" URL="../Engine/WebPage Addon Engine.lvlib"/>
-		<Item Name="WebPage Addon Shared.lvlib" Type="Library" URL="../Shared/WebPage Addon Shared.lvlib"/>
+		<Item Name="WebPage Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/WebPage Addon Engine.lvlib"/>
+		<Item Name="WebPage Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/WebPage Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -125,7 +126,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/WebPage Addon</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">Linux_x64/WebPage Addon Engine Linux64.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
