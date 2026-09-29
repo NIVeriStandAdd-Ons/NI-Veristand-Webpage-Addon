@@ -30,6 +30,9 @@
 				<Item Name="Python Webpage" Type="Folder" URL="../Addon/Support Files/Python Webpage">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
+				<Item Name="Quick Start Documentation" Type="Folder" URL="../Addon/Support Files/Quick Start Documentation">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
 			</Item>
 			<Item Name="Custom Device WebPage Addon.xml" Type="Document" URL="../Addon/Custom Device WebPage Addon.xml"/>
 			<Item Name="WebPage Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/WebPage Addon Engine.lvlib"/>
@@ -112,8 +115,11 @@
 				<Property Name="Destination[5].destName" Type="Str">Glyphs</Property>
 				<Property Name="Destination[5].path" Type="Path">../Built/WebPage Addon/Windows/Glyphs</Property>
 				<Property Name="Destination[5].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">6</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A2E1DEB0-A263-4CE9-9C3B-0982FF689ADF}</Property>
+				<Property Name="Destination[6].destName" Type="Str">Quick Start Documentation</Property>
+				<Property Name="Destination[6].path" Type="Path">../Built/WebPage Addon/Windows/Quick Start Documentation</Property>
+				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">7</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5CBEA0CB-6596-4C5C-936B-4FB7F7A10986}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
@@ -188,7 +194,14 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Files/Quick Start Documentation</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>

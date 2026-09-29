@@ -1,15 +1,21 @@
-Control-Addon
+WebPage-Addon
 ===================
 
 ### Description ###
 
-This addon provides PID and On/Off (called industrial) control to NI VeriStand. Additionally, it provides special workspace objects tailored towards control.  Last, a PID tuning tool is provided to allow controlled gain changes..
+This addon provides a locally hosted webpage on the deployed target that serves up VeriStand data at a slow rate. The webpage has a larger graph that allows users to view all channels. Channels can be enabled / disabled. Additionally, it has individual channel boxes.
+
+### Initial Setup ###
+
+READ THE HELP!! THERE ARE REQUIRED, ONE TIME SETUPS ON WINDOWS / NI LINUX RT...
+
+READ IT!!
 
 ### Help ###
 
 Quick Start Documentation is at
 
-Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Control Addon\Windows\Quick Start Documentation
+Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Webpage Addon\Windows\Quick Start Documentation
 
 Source: Source\Addon\Support Files\Quick Start Documentation
 
@@ -17,7 +23,7 @@ Help is also included in most System Explorer sections.
 
 ### Built Availability ###
 
-https://github.com/NIVeriStandAdd-Ons/Control-Custom-Device/releases 
+None
 
 ### Built Dependencies ###
 
@@ -25,23 +31,16 @@ None
 
 ### Quality, Limitations ###
 
-IP has been tested by developer. It meets VeriStand addon coding best practices. It is currently used by various customers.
-
-IP does not support multiple modes for per PID controller.
+IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 ### Source Version ###
 
-LabVIEW 2019
+LabVIEW 2026
+Python 3.14
 
 ### Source Dependencies ###
 
 NI Veristand Custom Device Development Tools (https://github.com/ni/niveristand-custom-device-development-tools/releases)
-
-LabVIEW Control or LabVIEW RT 2019 (required for PID VIs)
-
-NI Simple Messaging Library 3.1.0.9 (https://www.vipm.io/package/ni_lib_stm/)
-
-NI Asynchronous Messaging Communication Library 3.3.1.22 (https://www.vipm.io/package/ni_lib_amc/)
 
 ### License ###
 

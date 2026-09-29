@@ -12,7 +12,6 @@
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Check and Move Files.vi" Type="VI" URL="../SubVIs/Check and Move Files.vi"/>
 		<Item Name="Create OS Specific Parameters.vi" Type="VI" URL="../SubVIs/Create OS Specific Parameters.vi"/>
 		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 	</Item>
